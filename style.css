@@ -1,0 +1,57 @@
+body {
+    background-image: url("assets/images/green-leaves-photo-1418116.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Merriweather', serif;
+}
+#myNav {
+    text-align: right;
+    background-color: rgb(180, 180, 180, .7);
+    height: 35px;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+}
+.myCont {
+    height: 100%;
+
+}
+.contentBg {
+    position: relative;
+    background-color: rgb(180, 180, 180, .7);
+    height: 65%;
+    /* align-content: center; */
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.name-button {
+    margin-top: 5%;
+
+}
+#headShot {
+    /* position: absolute;  */
+    background:rgb(240, 240, 240, 1); 
+    border-radius: 50%;
+    margin: 7% 5% 5% 7%;
+}
+#name {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+#story {
+    display: block;
+    margin: auto;
+}
+#myFooter {
+    height: 5%;
+    background-color: rgb(180, 180, 180, .7);
+    text-align: center;
+}
+.blocked {
+    display: none;
+}
+.storyDiv {
+    display: block;
+}
+
+

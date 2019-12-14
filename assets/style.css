@@ -1,0 +1,10 @@
+body {
+    background-image: url("multi-color-background\ half\ size.jpg");
+}
+#name {
+    text-align: center;
+    padding-top:50%;
+}
+#hireButton {
+    text-align: center;
+}
