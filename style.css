@@ -67,6 +67,9 @@ body,html {
     display: block;
     text-align: left;
     line-height: 150%;
+    font-size: 20px;
+    margin-right: 5px;
+    font-weight: bold;
 }
 /*contact page */
 form {
@@ -85,7 +88,6 @@ form {
 @media only screen and (max-width: 360px) {
 #headShot {
     width: 200px;
-    margin: 0 0 0 0;
 }
 #name {
     font-size: 20px;
