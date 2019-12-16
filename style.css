@@ -1,35 +1,46 @@
-body {
-    background-image: url("assets/images/green-leaves-photo-1418116.jpg");
+body,html {
+    background-image: url("assets/images/green-leaves-photo-md.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: repeat-y; */
     background-size: cover;
     font-family:'Merriweather', serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
-#myNav {
-    text-align: right;
-    background-color: rgb(180, 180, 180, .7);
-    height: 35px;
-    width: 100%;
-    font-family: 'Libre Baskerville', serif;
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    line-height: 150% !important;
+}
+.firstLink {
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+.afterClick {
+    font-size: 40px;
 }
 .myCont {
-    height: 100%;
+    border-radius: 10px;
+    flex: 1 0 auto;
+
 
 }
 .contentBg {
     position: relative;
     background-color: rgb(180, 180, 180, .7);
-    height: 65%;
-    /* align-content: center; */
     margin-top: 10%;
-    border-radius: 10px;
+    margin-bottom: 5%;
 }
 .name-button {
     margin-top: 5%;
 
 }
 #headShot {
-    /* position: absolute;  */
     background:rgb(240, 240, 240, 1); 
     border-radius: 50%;
     margin: 7% 5% 5% 7%;
@@ -46,12 +57,48 @@ body {
     height: 5%;
     background-color: rgb(180, 180, 180, .7);
     text-align: center;
+    flex-shrink: 0;
+
 }
 .blocked {
     display: none;
 }
 .storyDiv {
     display: block;
+    text-align: left;
+    line-height: 150%;
+}
+/*contact page */
+form {
+    padding: 10px;
 }
 
+/* Portflio Page */
+.myWork {
+    margin: 10px;
+    min-height: 508px;
+}
+.gitButtons {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 360px) {
+#headShot {
+    width: 200px;
+    margin: 0 0 0 0;
+}
+#name {
+    font-size: 20px;
+}
+}
+@media only screen and (max-width: 300px) {
+    .myWork, .cardImg{
+        width: 150px !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .myWork {
+        margin: auto;
+    }
+}
 
