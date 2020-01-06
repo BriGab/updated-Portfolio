@@ -58,7 +58,6 @@ body,html {
     background-color: rgb(180, 180, 180, .7);
     text-align: center;
     flex-shrink: 0;
-
 }
 .blocked {
     display: none;
